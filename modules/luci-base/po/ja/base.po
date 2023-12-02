@@ -508,6 +508,9 @@ msgstr "無効なアドレスです!"
 msgid "Band"
 msgstr ""
 
+msgid "Battery"
+msgstr ""
+
 msgid "Behind NAT"
 msgstr ""
 

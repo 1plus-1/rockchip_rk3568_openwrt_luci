@@ -510,6 +510,9 @@ msgstr "¡Dirección no válida!"
 msgid "Band"
 msgstr ""
 
+msgid "Battery"
+msgstr ""
+
 msgid "Behind NAT"
 msgstr ""
 

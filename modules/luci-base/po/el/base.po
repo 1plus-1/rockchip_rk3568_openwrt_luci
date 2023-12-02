@@ -514,6 +514,9 @@ msgstr "Μη έγκυρη διεύθυνση!"
 msgid "Band"
 msgstr ""
 
+msgid "Battery"
+msgstr ""
+
 msgid "Behind NAT"
 msgstr ""
 

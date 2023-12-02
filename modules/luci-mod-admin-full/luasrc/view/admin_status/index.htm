@@ -50,6 +50,9 @@
 		
 		local cpu_usage = (luci.sys.exec("expr 100 - $(busybox top -n 1 | grep 'CPU:' | awk -F '%' '{print$4}' | awk -F ' ' '{print$2}')") or "6") .. "%"
 
+		local battery_percentage_raw = luci.sys.exec("cat /run/state/namespaces/Battery/ChargePercentage")
+		local battery_percentage = string.format("%.1f %%", tonumber(battery_percentage_raw))
+
 		local rv = {
 			cpuusage    = cpu_usage,
 			userinfo    = user_info,
@@ -63,7 +66,8 @@
 			conncount  = conn_count,
 			leases     = stat.dhcp_leases(),
 			leases6    = stat.dhcp6_leases(),
-			wifinets   = stat.wifi_networks()
+			wifinets   = stat.wifi_networks(),
+			battPercent = battery_percentage
 		}
 
 		if wan then
@@ -653,6 +657,9 @@
 			if (e = document.getElementById('cpuusage'))
 				e.innerHTML = info.cpuusage;
 
+			if (e = document.getElementById('battPercent'))
+				e.innerHTML = info.battPercent;
+
 			if (e = document.getElementById('loadavg'))
 				e.innerHTML = String.format(
 					'%.02f, %.02f, %.02f',
@@ -710,6 +717,7 @@
 		<tr><td width="33%"><%:Uptime%></td><td id="uptime">-</td></tr>
 		<tr><td width="33%"><%:Load Average%></td><td id="loadavg">-</td></tr>
 		<tr><td width="33%"><%:CPU usage (%)%></td><td id="cpuusage">-</td></tr>
+		<tr><td width="33%"><%:Battery (%)%></td><td id="battPercent">-</td></tr>
 	</table>
 </fieldset>
 

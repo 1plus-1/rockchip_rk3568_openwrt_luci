@@ -497,6 +497,9 @@ msgstr "指定了錯誤的位置！"
 msgid "Band"
 msgstr ""
 
+msgid "Battery"
+msgstr "电池"
+
 msgid "Behind NAT"
 msgstr ""
 

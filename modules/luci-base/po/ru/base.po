@@ -514,6 +514,9 @@ msgstr "Указан неправильный адрес!"
 msgid "Band"
 msgstr ""
 
+msgid "Battery"
+msgstr ""
+
 msgid "Behind NAT"
 msgstr ""
 

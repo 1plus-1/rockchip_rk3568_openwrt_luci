@@ -513,6 +513,9 @@ msgstr "Ungültige Adresse angegeben!"
 msgid "Band"
 msgstr "Frequenztyp"
 
+msgid "Battery"
+msgstr ""
+
 msgid "Behind NAT"
 msgstr "NAT"
 

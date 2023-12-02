@@ -546,6 +546,9 @@ msgstr "Endereço especificado está incorreto!"
 msgid "Band"
 msgstr "Banda"
 
+msgid "Battery"
+msgstr ""
+
 msgid "Behind NAT"
 msgstr "Atrás da NAT"
 

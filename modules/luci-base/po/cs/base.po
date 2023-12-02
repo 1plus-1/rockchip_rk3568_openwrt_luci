@@ -506,6 +506,9 @@ msgstr "Zadána neplatná adresa!"
 msgid "Band"
 msgstr ""
 
+msgid "Battery"
+msgstr ""
+
 msgid "Behind NAT"
 msgstr ""
 

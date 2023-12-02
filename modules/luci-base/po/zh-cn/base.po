@@ -535,6 +535,9 @@ msgstr "指定了错误的地址！"
 msgid "Band"
 msgstr "频宽"
 
+msgid "Battery"
+msgstr "电池"
+
 msgid "Behind NAT"
 msgstr "在 NAT 网络内"
 

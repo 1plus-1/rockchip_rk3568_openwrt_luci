@@ -504,6 +504,9 @@ msgstr "Bad address specified!"
 msgid "Band"
 msgstr ""
 
+msgid "Battery (%)"
+msgstr "Battery (%)"
+
 msgid "Behind NAT"
 msgstr ""
 

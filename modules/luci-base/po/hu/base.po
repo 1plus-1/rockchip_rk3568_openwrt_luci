@@ -509,6 +509,9 @@ msgstr "Hibás címet adott meg!"
 msgid "Band"
 msgstr ""
 
+msgid "Battery"
+msgstr ""
+
 msgid "Behind NAT"
 msgstr ""
 

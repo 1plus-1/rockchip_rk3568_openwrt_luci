@@ -516,6 +516,9 @@ msgstr "E' stato specificato un indirizzo errato!"
 msgid "Band"
 msgstr ""
 
+msgid "Battery"
+msgstr ""
+
 msgid "Behind NAT"
 msgstr ""
 

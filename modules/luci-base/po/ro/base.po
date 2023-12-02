@@ -501,6 +501,9 @@ msgstr "Adresa specificata gresit !"
 msgid "Band"
 msgstr ""
 
+msgid "Battery"
+msgstr ""
+
 msgid "Behind NAT"
 msgstr ""
 
